@@ -1,0 +1,30 @@
+Sistema de Controle de Tarefas
+-------------------------------------------------------------
+
+Requisitos para execução em ambiente de desenvolvimento
+-------------------------------------------------------------
+
+JDK 8
+Maven 3
+Eclipse Luna (opcional se for apenas para execução)
+
+
+Passos para execução do sistema
+-------------------------------------------------------------
+
+1 - Dentro da pasta controle-tarefas, efetuar um build completo
+com o maven
+
+mvn clean install
+
+2 - Após o build completo com sucesso, executar o sistema com
+o perfil de desenvolvimento maven
+
+mvn -PexecutarDev
+
+O sistema será executado com servidor Jetty e pode ser acessado
+pela url http://localhost:8080/controle-tarefas
+
+Utilizar os usuários de testes informados na tela de login
+
+
